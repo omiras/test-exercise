@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+}
+
+/* Code Under This Line */
+
+div:nth-of-type(1) {
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+}
+
+div:nth-of-type(2) {
+  border-style: dashed;
+  border-width: 10px;
+  border-color: blue;
+}
+
+div:nth-of-type(3) {
+  border-style: solid;
+  border-width: 0px 0px 0px 10px;
+  border-color: green;
+}
+
+div:nth-of-type(4) {
+  border-style: solid;
+  border-width: 10px;
+  border-color: red blue red blue;
+}
